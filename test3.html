@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <button id="i1">img1</button>
+        <button id="i2">img2</button>
+    </div>
+    <img src="../image/img1.jpg" alt="">
+    <script>
+        var i1 = document.getElementById('i1');
+        var i2 = document.getElementById('i2');
+        var im = document.querySelector('img');
+        i1.onclick = function () {
+            im.src = "../image/img1.jpg"
+        }
+        i2.onclick = function () {
+            im.src = "../image/img2.jpg"
+        }
+
+
+    </script>
+</body>
+
+</html>
